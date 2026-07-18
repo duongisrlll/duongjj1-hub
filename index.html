@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIENT HACK DUONGJJ1 HUB - Tải Executor Miễn Phí</title>
+    <style>
+        /* Giao diện màu đen chủ đạo kết hợp viền Neon Xanh Lá */
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, sans-serif; }
+        body { background-color: #050505; color: #e0e0e0; padding: 20px; }
+        
+        header { text-align: center; padding: 40px 20px; background-color: #0a0a0a; border: 1px solid #2ecc71; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 0 15px rgba(46, 204, 113, 0.3); }
+        header h1 { font-size: 2.3rem; color: #2ecc71; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; text-shadow: 0 0 10px rgba(46, 204, 113, 0.6); }
+        header p { color: #a2f2b7; font-size: 1rem; text-shadow: 0 0 5px rgba(46, 204, 113, 0.4); }
+
+        .container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        
+        /* Thẻ hiển thị từng Executor */
+        .card { background-color: #0d0d0d; border: 1px solid #222; border-radius: 10px; padding: 25px; transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between; }
+        .card:hover { transform: translateY(-5px); border-color: #2ecc71; box-shadow: 0 5px 20px rgba(46, 204, 113, 0.2); }
+        .card h2 { color: #fff; margin-bottom: 10px; font-size: 1.5rem; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #222; padding-bottom: 10px; }
+        
+        /* Trạng thái hoạt động */
+        .status { display: inline-block; padding: 3px 8px; font-size: 0.75rem; border-radius: 4px; font-weight: bold; text-transform: uppercase; border: 1px solid #2ecc71; color: #2ecc71; background: rgba(46, 204, 113, 0.1); }
+
+        .card p { color: #888; font-size: 0.95rem; margin: 15px 0 25px 0; line-height: 1.5; }
+        
+        /* Nút tải về màu xanh lá */
+        .btn-download { display: block; text-align: center; background: #111; color: #2ecc71; padding: 12px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 0.95rem; border: 1px solid #2ecc71; transition: all 0.2s ease; cursor: pointer; }
+        .btn-download:hover { background: #2ecc71; color: #000; box-shadow: 0 0 15px #2ecc71; }
+
+        /* Giao diện Popup Đếm Ngược */
+        .overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 1000; justify-content: center; align-items: center; backdrop-filter: blur(4px); }
+        .popup { background: #0a0a0a; border: 2px solid #2ecc71; padding: 40px; border-radius: 12px; text-align: center; max-width: 400px; width: 90%; box-shadow: 0 0 25px rgba(46, 204, 113, 0.4); }
+        .popup h3 { color: #fff; margin-bottom: 15px; font-size: 1.4rem; }
+        .popup .timer { font-size: 3.5rem; color: #2ecc71; font-weight: bold; margin: 20px 0; text-shadow: 0 0 10px rgba(46, 204, 113, 0.5); }
+        .popup p { color: #666; margin-bottom: 20px; }
+        
+        /* Nút tải cuối cùng màu xanh lá */
+        .popup .btn-final { display: none; background: #2ecc71; color: #000; padding: 12px 30px; text-decoration: none; border-radius: 6px; font-weight: bold; border: 1px solid #2ecc71; box-shadow: 0 0 15px rgba(46, 204, 113, 0.5); }
+        .popup .btn-final:hover { background: #27ae60; color: #fff; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CLIENT HACK DUONGJJ1 HUB</h1>
+        <p>Hệ thống link tải Executor an toàn, bảo mật cao, cập nhật phiên bản mới liên tục</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- 1. Madium -->
+        <div class="card">
+            <div>
+                <h2>Madium <span class="status">Online</span></h2>
+                <p>Executor thế hệ mới, tối ưu hóa dung lượng cực tốt cho các dòng máy cấu hình yếu. Chạy mượt các script cày cấp Blox Fruits mà không lo crash.</p>
+            </div>
+            <button class="btn-download" onclick="startDownload('Madium', 'https://mediafire.com')">Tải Xuống</button>
+        </div>
+
+        <!-- 2. TDT -->
+        <div class="card">
+            <div>
+                <h2>TDT Executor <span class="status">Online</span></h2>
+                <p>Phiên bản Executor độc quyền, độ ổn định cao, tối ưu hóa hệ thống chống khóa tài khoản tốt nhất khi treo máy cày sự kiện qua đêm.</p>
+            </div>
+            <button class="btn-download" onclick="startDownload('TDT Executor', 'https://webtdt.com')">Tải Xuống</button>
+        </div>
+
+        <!-- 3. Velocity -->
+        <div class="card">
+            <div>
+                <h2>Velocity <span class="status">Online</span></h2>
+                <p>Tốc độ thực thi mã script cực nhanh (Instant Execution). Khắc phục triệt để lỗi đứng hình, văng game khi load các map nặng.</p>
+            </div>
+            <button class="btn-download" onclick="startDownload('Velocity', 'https://gofile.io')">Tải Xuống</button>
+        </div>
+
+        <!-- 4. Vortex -->
+        <div class="card">
+            <div>
+                <h2>Vortex <span class="status">Online</span></h2>
+                <p>Công cụ chạy script phân cấp nâng cao, hỗ trợ đa luồng và cập nhật tự động mỗi khi game có phiên bản update mới.</p>
+            </div>
+            <button class="btn-download" onclick="startDownload('Vortex', 'https://getvortex.online')">Tải Xuống</button>
+        </div>
+
+        <!-- 5. Real -->
+        <div class="card">
+            <div>
+                <h2>Real Executor <span class="status">Online</span></h2>
+                <p>Phiên bản cải tiến vượt bậc, sở hữu khả năng tự động cập nhật dữ liệu ngầm cực kỳ an toàn giúp hạn chế tối đa rủi ro bị hệ thống quét phần mềm thứ ba.</p>
+            </div>
+            <button class="btn-download" onclick="startDownload('Real Executor', 'https://projectreal.gg')">Tải Xuống</button>
+        </div>
+
+    </div>
+
+    <!-- Cửa sổ đếm ngược (Popup) -->
+    <div class="overlay" id="downloadOverlay">
+        <div class="popup">
+            <h3 id="popupTitle">Đang kiểm tra file...</h3>
+            <p>Vui lòng đợi hệ thống quét link tải an toàn, không chứa mã độc.</p>
+            <div class="timer" id="countdownTimer">10</div>
+            <a href="#" id="finalDownloadBtn" target="_blank" class="btn-final" onclick="closePopup()">BẤM VÀO ĐÂY ĐỂ TẢI FILE</a>
+        </div>
+    </div>
+
+    <script>
+        let countdown;
+        
+        function startDownload(name, downloadUrl) {
+            const overlay = document.getElementById('downloadOverlay');
+            const timerDisplay = document.getElementById('countdownTimer');
+            const finalBtn = document.getElementById('finalDownloadBtn');
+            const popupTitle = document.getElementById('popupTitle');
+            
+            popupTitle.innerText = `Đang chuẩn bị link: ${name}`;
+            timerDisplay.style.display = 'block';
+            finalBtn.style.display = 'none';
+            overlay.style.display = 'flex';
+            
+            let timeLeft = 10; 
+            timerDisplay.innerText = timeLeft;
+            
+            countdown = setInterval(() => {
+                timeLeft--;
+                timerDisplay.innerText = timeLeft;
+                
+                if (timeLeft <= 0) {
+                    clearInterval(countdown);
+                    timerDisplay.style.display = 'none';
+                    finalBtn.setAttribute('href', downloadUrl);
+                    finalBtn.style.display = 'inline-block';
+                }
+            }, 1000);
+        }
+
+        function closePopup() {
+            setTimeout(() => {
+                document.getElementById('downloadOverlay').style.display = 'none';
+            }, 500);
+        }
+    </script>
+</body>
+</html>
